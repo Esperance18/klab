@@ -1,0 +1,58 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: black;
+    margin: 80px;
+}
+.myDiv {
+    image-rendering: left;
+ }
+ .par {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: left;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    }
+  .p1 {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    color: white;
+    text-size-adjust: 36;
+  }
+  .logo {
+margin: 0px;  
+    text-align: left;
+    color: white;
+}
+a {
+  color: white;
+}
+.image {
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        display: flex;
+    justify-content: right;
+       
+        margin: 0%;
+    
+}
+.responsive{
+  @media  screen and  {max-width = 1024px
+    
+  }
+
+}
+p2{
+  font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    color: white;
+   text-size-adjust: 36;
+}
+
+
